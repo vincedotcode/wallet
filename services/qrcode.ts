@@ -25,8 +25,8 @@ export interface ScannedQRData {
 interface QRCodeResponse {
   succeeded: boolean;
   message: string | null;
-  totalRecord?: number; // optional, as it might not be present in this response
-  data: QRCodeData;
+  totalRecord?: number; 
+  data: QRCodeData[];
 }
 
 interface ScannedQRResponse {
