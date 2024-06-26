@@ -64,21 +64,28 @@ export const navItems: NavItem[] = [
     role: 'BackOffice',
   },
   {
-    title: 'Ewallet Management',
+    title: 'Wallet Users',
+    href: '/cobrand/clients/users',
+    icon: 'persons',
+    role: 'BackOffice',
+  },
+  {
+    title: 'Card Management',
     href: '/cobrand/ewallet-management',
     icon: 'billing',
     role: 'BackOffice',
   },
+ 
   {
-    title: 'QR Transaction',
-    href: '/cobrand/qr-transactions',
-    icon: 'qrCodeScanner',
+    title: 'Generate QR Codes',
+    href: '/cobrand/qrcodes',
+    icon: 'qrCode',
     role: 'BackOffice',
   },
   {
-    title: 'MY QR Codes',
-    href: '/cobrand/qrcodes',
-    icon: 'qrCode',
+    title: 'QR Transactions',
+    href: '/cobrand/qr-transactions',
+    icon: 'qrCodeScanner',
     role: 'BackOffice',
   },
   {
@@ -87,14 +94,9 @@ export const navItems: NavItem[] = [
     icon: 'persons',
     role: 'BackOffice',
   },
+ 
   {
-    title: 'Wallet Users',
-    href: '/cobrand/clients/users',
-    icon: 'persons',
-    role: 'BackOffice',
-  },
-  {
-    title: 'Roles',
+    title: 'Settings',
     href: '/cobrand/roles',
     icon: 'lock',
     role: 'BackOffice',

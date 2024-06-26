@@ -13,6 +13,7 @@ import { useToast } from '@/components/ui/use-toast';
 import { useAuth } from '@/hooks/useAuth';
 
 import { useParams } from 'next/navigation';
+
 const statusOptions = [
   "PENDING",
   "UNDERREVIEW",
@@ -33,10 +34,9 @@ type SliderProps = React.ComponentProps<typeof Slider>;
 
 interface VerifyDocumentDialogProps {
   document: {
-    documentBase64: string;
-    submissionDate: string;
+    documentBase64?: string | null;
+    submissionDate?: string;
     id: number;
-    clientId: string;
   };
 }
 
